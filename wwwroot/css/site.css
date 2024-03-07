@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.loopCtn {
+  
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.search{
+position: relative;
+box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+
+.search input{
+height: 60px;
+text-indent: 25px;
+border: 2px solid #d6d4d4;
+}
+
+
+.search input:focus{
+box-shadow: none;
+border: 2px solid blue;
+}
+
+.search .fa-search{
+position: absolute;
+top: 20px;
+left: 16px;
+}
+
+.search button{
+position: absolute;
+top: 5px;
+right: 5px;
+height: 50px;
+width: 110px;
+background: blue;
+}
+
+
+nav{
+  margin:0 auto;
+  padding-top:60px;
+}
+.pagination.pagination-circle .page-item.active .page-link {
+    border-radius: 50%;
+}
+.pagination .page-item .page-link:hover {
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    border-radius: .125rem;
+    background-color: #eee;
+}
+.pagination.pg-blue .page-item.active .page-link:hover {
+    background-color: #BD5410;
+}
+.pagination .page-item.active .page-link {
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    border-radius: .125rem;
+    background-color: #BD5410;
+    color: #fff;
+}
+.pagination .page-item .page-link {
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: .9rem;
+    color: #999;
+    font-weight:bold;
+}
+.pagination.pagination-circle .page-item .page-link:hover {
+    border-radius: 50%;
+}
+.pagination.pagination-circle .page-item .page-link {
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 50%;
+}
+.pagination .page-item.active .page-link{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.page-link{
+  border:none!important;
+}
+
+/*--------- Pager3 ---------*/
+.Pager3 .pagination.pagination-circle .page-item.active .page-link {
+    border-radius: 50%;
+    border: 1px solid blue!important;
+    background-color:white;
+    color: blue;
+    font-weight:bold;
+}
+.Pager3 .pagination .page-item.active .page-link{
+    box-shadow:none;
+}
+.Pager3 .pagination .page-item .page-link{
+  color: blue;
+}
